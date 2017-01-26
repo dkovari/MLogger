@@ -1,5 +1,20 @@
 # MLogger
-A text-based log system for MATLAB.
+A text-based log system for MATLAB. Log messages are time-stamped and formatted so they can easily be read by a human. Messages can be written to the log using a function, or using the included GUI. The GUI operates as a Callback-driven system so it can be open while other processes are running and still write to the log file.
+#### Example Log File
+```
+# MLogger File --------------------------------------------------
+# Created: 2016-07-25 09:20:15.012
+#
+# Date & Time           | Message Text
+#========================================================================
+2016-07-25 09:25:30.015 | Message1 Line 1
+                        | Message1 Line 2
+#------------------------------------------------------------------------
+2016-07-25 09:25:32.237 | Message2 Line 1
+                        | Message2 Line 2
+                        | Message2 Line 3
+#------------------------------------------------------------------------
+```
 ## Including MLogger in a project
 MLogger should be included in a MATLAB project as a package named "+MLogger".
 ### Adding as a submodule
