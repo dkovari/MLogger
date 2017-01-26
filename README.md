@@ -33,7 +33,7 @@ git pull -s subtree MLogger master
 ```
 ## Usage
 ```matlab
-logger = Logger('YOUR FILE NAME');
+logger = MLogger.Logger('YOUR FILE NAME');
 %       If don't enter a name, a default name containg the date and
 %       time is used.
 logger.open(file);
